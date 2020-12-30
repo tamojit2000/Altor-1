@@ -1,11 +1,8 @@
 package com.ysvg2tafy.altor1
 
-import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import java.lang.Integer.max
 
 class MainActivity : AppCompatActivity() {
 

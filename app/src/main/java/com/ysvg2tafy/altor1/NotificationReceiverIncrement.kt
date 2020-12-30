@@ -8,6 +8,7 @@ class NotificationReceiverIncrement : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         if (context != null) {
             Start_Service(context)
+
         }
 
     }

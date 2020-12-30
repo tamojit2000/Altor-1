@@ -10,10 +10,12 @@ val CHANNEL_ID="CHANNEL ID"
 var COUNTER=0
 
 
+
 fun Start_Service(context: Context){
     val service_intent= Intent(context, MyService::class.java)
     service_intent.putExtra("COUNTER", ++COUNTER)
     context.startService(service_intent)
+    Dump_Value(context)
 }
 
 fun Stop_Service(context: Context){
